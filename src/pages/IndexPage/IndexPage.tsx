@@ -1,6 +1,7 @@
 import { Section, Cell, Image, List } from '@telegram-apps/telegram-ui';
 import type { FC } from 'react';
 
+import {Footer} from '@/components/Footer/Footer.tsx'
 import { Link } from '@/components/Link/Link.tsx';
 import { Page } from '@/components/Page.tsx';
 
@@ -38,6 +39,7 @@ export const IndexPage: FC = () => {
           </Link>
         </Section>
       </List>
+      <Footer />
     </Page>
   );
 };
