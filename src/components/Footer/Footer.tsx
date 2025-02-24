@@ -21,7 +21,7 @@ export const Footer: FC = () => {
 					mode="plain"
 					size="s"
 				>
-					Поробуйте позже
+					Поробуйте
 				</Button>
 			</React.Fragment>
 		</Banner>
