@@ -10,7 +10,7 @@ export const Footer: FC = () => {
 			callout="Urgent notification"
 			description="Start exploring TON in a new, better way"
 			header="Introducing TON Space"
-			onCloseIcon={function noRefCheck(){}}
+			onCloseIcon={function noRefCheck() { }}
 			type="section"
 		>
 			<React.Fragment key=".0">
@@ -21,7 +21,7 @@ export const Footer: FC = () => {
 					mode="plain"
 					size="s"
 				>
-					Maybe later
+					Поробуйте позже
 				</Button>
 			</React.Fragment>
 		</Banner>
