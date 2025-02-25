@@ -1,3 +1,4 @@
+import React from 'react';
 import { type FC, useMemo } from 'react';
 import { initData, type User, useSignal } from '@telegram-apps/sdk-react';
 import { List, Placeholder } from '@telegram-apps/telegram-ui';
@@ -103,10 +104,10 @@ export const InitDataPage: FC = () => {
   return (
     <Page>
       <List>
-        <DisplayData header={'Init Data'} rows={initDataRows}/>
-        {userRows && <DisplayData header={'User'} rows={userRows}/>}
-        {receiverRows && <DisplayData header={'Receiver'} rows={receiverRows}/>}
-        {chatRows && <DisplayData header={'Chat'} rows={chatRows}/>}
+        <DisplayData header={'Init Data'} rows={initDataRows} />
+        {userRows && <DisplayData header={'User'} rows={userRows} />}
+        {receiverRows && <DisplayData header={'Receiver'} rows={receiverRows} />}
+        {chatRows && <DisplayData header={'Chat'} rows={chatRows} />}
       </List>
     </Page>
   );

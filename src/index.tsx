@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client';
-import { StrictMode } from 'react';
+import React, { StrictMode } from 'react';
 import { retrieveLaunchParams } from '@telegram-apps/sdk-react';
 
 import { Root } from '@/components/Root.tsx';
@@ -20,9 +20,9 @@ try {
 
   root.render(
     <StrictMode>
-      <Root/>
+      <Root />
     </StrictMode>,
   );
 } catch (e) {
-  root.render(<EnvUnsupported/>);
+  root.render(<EnvUnsupported />);
 }
